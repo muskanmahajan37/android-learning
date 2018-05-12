@@ -72,6 +72,7 @@ public class SplashActivity extends AppCompatActivity {
                             if (memorize.length() > 0) {
                                 WordsTable wordsTable = new WordsTable();
 
+                                wordsTable.deleteAll();
                                 for (int i = 0; i < memorize.length(); i++){
                                     Words words = new Words();
                                     words.setId(memorize.getJSONObject(i).getString("_id"));
@@ -87,6 +88,9 @@ public class SplashActivity extends AppCompatActivity {
                                     wordsTable.insert(words);
                                 }
                             }
+
+                            startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                            finish();
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

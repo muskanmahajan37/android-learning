@@ -86,11 +86,19 @@ public class WordsTable {
                 word.setIsMemorize(cursor.getString(Words.WORD_IS_MEMORIZE_INDEX));
                 word.setIsFavorite(cursor.getString(Words.WORD_IS_FAVORITE_INDEX));
                 word.setCreated(cursor.getString(Words.WORD_CREATED_INDEX));
+
+                words.add(word);
             } while (cursor.moveToNext());
         }
         cursor.close();
         DatabaseManager.getInstance().closeDatabase();
         return words;
+    }
+
+    public void deleteAll(){
+        SQLiteDatabase db = DatabaseManager.getInstance().openDatabase();
+        db.delete(Words.TABLE_WORDS, null, null);
+        DatabaseManager.getInstance().closeDatabase();
     }
 }
 
