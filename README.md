@@ -6,14 +6,12 @@
 
 Энэхүү төслийн хүрээнд андройд хөгжүүлэлтийн хамгийн чухал ойлголтууд болох дараах зүйлсийг сурах болно.
 
-* [Dependencies](#1-dependencies)
-* [Resources](#2-resources)
-* [Layouts](#3-layouts)
-* [Activities](#4-activities)
-  * [Material Search View](#41-material-search-view)
-  * [Bottom Navigation](#42-bottom-navigation)
-* [Fragments](#5-fragments)
-* [Shared Preference](#6-shared-preference)
+* [Шинэ project үүсгэх](#1-dependencies)
+* [Bottom Navigation View](#2-resources)
+* [Fragments](#3-layouts)
+* [Android Studio дээрх төслөө хэрхэн Github-тай холбох](#4-activities)
+* [Splash Screen хийх](#5-fragments)
+* [Material Search bar хэрхэн оруулах](#6-shared-preference)
 * [Models](#7-models)
 * [Database](#8-databasehelper)
   * [DatabaseHelper](#81-databasehelper)
