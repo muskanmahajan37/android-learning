@@ -13,6 +13,7 @@ public class DatabaseManager {
     private static SQLiteDatabase mDatabase;
 
     public static synchronized void initializeInstance(SQLiteOpenHelper helper) {
+        Logger.d("Database manager initialize .. ");
         if (instance == null){
             instance = new DatabaseManager();
             mDatabaseHelper = helper;

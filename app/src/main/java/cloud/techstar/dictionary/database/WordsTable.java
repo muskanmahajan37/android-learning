@@ -5,6 +5,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.orhanobut.logger.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,6 +19,7 @@ public class WordsTable {
     }
 
     public static String create(){
+        Logger.d("Word table created");
         return "CREATE TABLE "+Words.TABLE_WORDS+" (" +
                 Words.WORD_ID + " TEXT PRIMARY KEY," +
                 Words.WORD_CHARACTER + " TEXT," +
@@ -51,8 +54,10 @@ public class WordsTable {
             cv.put(Words.WORD_IS_MEMORIZE, words.getIsMemorize());
             cv.put(Words.WORD_IS_FAVORITE, words.getIsFavorite());
             cv.put(Words.WORD_CREATED, words.getCreated());
-            db.insert(Words.TABLE_WORDS, null, cv)'
+            db.insert(Words.TABLE_WORDS, null, cv);
             db.setTransactionSuccessful();
+
+            Logger.d("Inserted");
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
@@ -83,6 +88,8 @@ public class WordsTable {
                 word.setCreated(cursor.getString(Words.WORD_CREATED_INDEX));
             } while (cursor.moveToNext());
         }
+        cursor.close();
+        DatabaseManager.getInstance().closeDatabase();
         return words;
     }
 }
