@@ -2,6 +2,30 @@ package cloud.techstar.dictionary.models;
 
 public class Words {
 
+    public static final String TABLE_WORDS = "words";
+
+    public static final String WORD_ID = "id";
+    public static final String WORD_CHARACTER = "character";
+    public static final String WORD_MEANING = "meaning";
+    public static final String WORD_MEANING_MN = "meaningMon";
+    public static final String WORD_KANJI = "kanji";
+    public static final String WORD_PART_OF_SPEECH = "partOfSpeech";
+    public static final String WORD_LEVEL = "level";
+    public static final String WORD_IS_MEMORIZE = "isMemorize";
+    public static final String WORD_IS_FAVORITE = "isFavorite";
+    public static final String WORD_CREATED = "created";
+
+    public static final int WORD_ID_INDEX = 0;
+    public static final int WORD_CHARACTER_INDEX = 1;
+    public static final int WORD_MEANING_INDEX = 2;
+    public static final int WORD_MEANING_MN_INDEX = 3;
+    public static final int WORD_KANJI_INDEX = 4;
+    public static final int WORD_PART_OF_SPEECH_INDEX = 5;
+    public static final int WORD_LEVEL_INDEX = 6;
+    public static final int WORD_IS_MEMORIZE_INDEX = 7;
+    public static final int WORD_IS_FAVORITE_INDEX = 8;
+    public static final int WORD_CREATED_INDEX = 9;
+
     private String id;
     private String character;
     private String meaning;

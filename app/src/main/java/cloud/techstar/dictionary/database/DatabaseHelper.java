@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import cloud.techstar.dictionary.AppMain;
+import cloud.techstar.dictionary.models.Words;
 
 public class DatabaseHelper extends SQLiteOpenHelper{
 
@@ -17,12 +18,12 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        db.execSQL(WordsTable.create());
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF NOT EXISTS ");
+        db.execSQL("DROP TABLE IF EXISTS "+ Words.TABLE_WORDS);
         onCreate(db);
     }
 }
