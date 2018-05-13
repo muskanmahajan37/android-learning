@@ -14,11 +14,11 @@
 * [Splash Screen хийх](#5-fragments)
 * [Material Search bar хэрхэн оруулах](#6-shared-preference)
 * [Model үүсгэх](#7-models)
-* [Өгөгдлийн сантай ажиллах]
+* Өгөгдлийн сантай ажиллах
   * [Өгөгдлийн сан үүсгэх](#81-databasehelper)
   * [Хүснэгт үүсгэх](#83-хүснэгтэй-ажиллах)
   * [Хүснэгтэд өгөгдөл нэмэх болон select хийх](#83-хүснэгтэй-ажиллах)
-* [Вэбтэй холбогдох]
+* Вэбтэй холбогдох
   * [Okhttp](#101-ohkttp)
 * [RecyclerView, Adapter ](#11-recyclerview)
 * [Connection Detector](#9-connectoin-detector)
