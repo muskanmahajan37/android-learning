@@ -1,4 +1,5 @@
-# Android програмчлалын үндсэн ойлголтууд
+
+        # Android програмчлалын үндсэн ойлголтууд
 
 #### Android програмчлалын үндсэн хамгийн чухал ойлголтуудыг практик дээр хэрэгжүүлэх
 
@@ -6,75 +7,28 @@
 
 Энэхүү төслийн хүрээнд андройд хөгжүүлэлтийн хамгийн чухал ойлголтууд болох дараах зүйлсийг сурах болно.
 
-* [Шинэ project үүсгэх](#1-dependencies)
+* [Шинэ project үүсгэх](#1-шинэ-project-үүсгэх)
 * [Bottom Navigation View](#2-resources)
 * [Fragments](#3-layouts)
 * [Android Studio дээрх төслөө хэрхэн Github-тай холбох](#4-activities)
 * [Splash Screen хийх](#5-fragments)
 * [Material Search bar хэрхэн оруулах](#6-shared-preference)
-* [Models](#7-models)
-* [Database](#8-databasehelper)
-  * [DatabaseHelper](#81-databasehelper)
-  * [DatabaseManager](#82-databasemanager)
-  * [Create, Update, Delete, Select](#83-хүснэгтэй-ажиллах)
-* [Connection Detector](#9-connectoin-detector)
-* [Вэбтэй холбогдох](#10-http)
+* [Model үүсгэх](#7-models)
+* [Өгөгдлийн сантай ажиллах]
+  * [Өгөгдлийн сан үүсгэх](#81-databasehelper)
+  * [Хүснэгт үүсгэх](#83-хүснэгтэй-ажиллах)
+  * [Хүснэгтэд өгөгдөл нэмэх болон select хийх](#83-хүснэгтэй-ажиллах)
+* [Вэбтэй холбогдох]
   * [Okhttp](#101-ohkttp)
-* [RecyclerView](#11-recyclerview)
-  * [RecyclerView](#111-recyclerview)
-  * [Adapter](#112-adapter)
-* [Widget](#13-widget)
-* [Services](#14-services)
-* [Broadcast Receivers](#15-broadcast-receivers)
-* [Content Providers](#16-content-providers)
+* [RecyclerView, Adapter ](#11-recyclerview)
+* [Connection Detector](#9-connectoin-detector)
+* [Material SearchBar search and suggest](#9-connectoin-detector)
 
-## 1. Dependencies
+## 1. Шинэ project үүсгэх
 
 Dependencies гэдэг нь гаднаас сангуудыг өөрийн програмдаа дуудаж ашиглах боломжтой болгосон зүйлийг хэлнэ.
 
 Android дээр dependencies удирдахын тулд gradle ашиглана. Доорх хэсэг gradle-ийн тохиргооны файл юу юунаас бүрддэг талаар тайлбарлая
-
-```
-apply plugin: 'com.android.application'
-
-apply plugin: 'kotlin-android'
-
-apply plugin: 'kotlin-android-extensions'
-
-//
-android {
-    compileSdkVersion 27
-    defaultConfig {
-        applicationId "cloud.techstar.jisho"
-        minSdkVersion 16
-        targetSdkVersion 27
-        versionCode 2
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        vectorDrawables.useSupportLibrary = true
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-}
-
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
-    implementation 'com.android.support:support-v4:27.1.1'
-    implementation 'com.android.support:design:27.1.1'
-    implementation 'com.android.support:recyclerview-v7:27.1.1'
-    implementation 'com.android.support:cardview-v7:27.1.1'
-    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    implementation 'com.android.support:support-vector-drawable:27.1.1'
-    implementation 'com.orhanobut:logger:2.1.1'
-    implementation 'com.github.mancj:MaterialSearchBar:0.7.6'
-}
 
 ```
 ## 2. Resources
