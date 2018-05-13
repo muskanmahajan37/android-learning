@@ -6,6 +6,7 @@ import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.orhanobut.logger.Logger;
 
@@ -18,6 +19,7 @@ import java.io.IOException;
 import cloud.techstar.dictionary.R;
 import cloud.techstar.dictionary.database.WordsTable;
 import cloud.techstar.dictionary.models.Words;
+import cloud.techstar.dictionary.utils.ConnectionDetector;
 import cloud.techstar.dictionary.utils.DicConstants;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -37,15 +39,17 @@ public class SplashActivity extends AppCompatActivity {
         mHandler = new Handler(Looper.getMainLooper());
 
         getWordsServer();
-//        mHandler.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                startActivity(new Intent(SplashActivity.this, MainActivity.class));
-//            }
-//        }, 1000);
     }
 
     public void getWordsServer(){
+
+        if (!ConnectionDetector.isNetworkAvailable(SplashActivity.this)){
+            Toast.makeText(SplashActivity.this, "No internet connection !!!", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(SplashActivity.this, MainActivity.class));
+            finish();
+            return;
+        }
+
         OkHttpClient client = new OkHttpClient();
 
         final Request request = new Request.Builder()
