@@ -23,7 +23,7 @@
 * [Connection Detector](#11-connectoin-detector)
 * [Material SearchBar search and suggest](#12-material-searchbar-search-and-suggest)
 
-## 1. Шинэ project үүсгэх {#1-шинэ-project-үүсгэх}
+## 1. Шинэ project үүсгэх
 
 Gradle гэж юу вэ?
 
@@ -71,7 +71,7 @@ A simple example is that you have to copy some files from one directory to anoth
     implementation 'com.github.mancj:MaterialSearchBar:0.7.6'
 ```
 
-Хичээлийн холбоос: [https://youtu.be/0Yyz\_Ga0uAY](https://youtu.be/0Yyz_Ga0uAY)
+Хичээлийн холбоос: https://youtu.be/M71VhrSa1n0
 
 Нэмэлт унших материалууд
 
@@ -81,11 +81,11 @@ A simple example is that you have to copy some files from one directory to anoth
 
 ## 2. Bottom Navigation View
 
-Хичээлийн холбоос: [https://youtu.be/zTCWuP-r5hk](https://youtu.be/zTCWuP-r5hk)
+Хичээлийн холбоос: https://youtu.be/gHBvJcYMtIw
 
 ## 3. Fragments
 
-Хичээлийн холбоос: [https://youtu.be/otY8m5THgQs](https://youtu.be/otY8m5THgQs)
+Хичээлийн холбоос: https://youtu.be/BmY1VFrp1-M
 
 [https://developer.android.com/guide/components/fragments](https://developer.android.com/guide/components/fragments)
 
@@ -95,7 +95,7 @@ A simple example is that you have to copy some files from one directory to anoth
 
 ## 4. Android Studio дээрх төслөө хэрхэн Github-тай холбох
 
-Хичээлийн холбоос: [https://youtu.be/qbldKX6tQ6U](https://youtu.be/qbldKX6tQ6U)
+Хичээлийн холбоос: https://youtu.be/fpviOTg1nBk
 
 1. Sign up and create a GitHub account in www.github.com.
 
@@ -120,35 +120,35 @@ A simple example is that you have to copy some files from one directory to anoth
 
 ## 5. Splash Screen хийх
 
-Хичээлийн холбоос: [https://youtu.be/GuHbkC4ajvM](https://youtu.be/GuHbkC4ajvM)
+Хичээлийн холбоос: https://youtu.be/hG1EtTnZj_E
 
 ## 6. Material Search bar хэрхэн оруулах
 
-Хичээлийн холбоос: [https://youtu.be/Qxlo6IIwLD0](https://youtu.be/Qxlo6IIwLD0)
+Хичээлийн холбоос: https://youtu.be/AYmcXM9Jvr0
 
 ## 7. Model үүсгэх
 
-Хичээлийн холбоос: [https://youtu.be/y5y95VX5t\_0](https://youtu.be/y5y95VX5t_0)
+Хичээлийн холбоос: https://youtu.be/OPylra7ghas
 
 ## 8. Өгөгдлийн сантай ажиллах
 
 ### 8.1. Өгөгдлийн сан үүсгэх
 
-Хичээлийн холбоос: [https://youtu.be/TZZMQinZaII](https://youtu.be/TZZMQinZaII)
+Хичээлийн холбоос: https://youtu.be/oHU99Jv7bnI
 
 ### 8.2. Хүснэгт үүсгэх
 
-Хичээлийн холбоос: [https://youtu.be/4IkUxJ\_whw4](https://youtu.be/4IkUxJ_whw4)
+Хичээлийн холбоос: https://youtu.be/f8V68H33FHc
 
 ### 8.3. Хүснэгтэд өгөгдөл нэмэх болон select хийх
 
-Хичээлийн холбоос: [https://youtu.be/O5uzsZQ1yTA](https://youtu.be/O5uzsZQ1yTA)
+Хичээлийн холбоос: https://youtu.be/9ybg1zLGsxA
 
 ## 9. Вэбтэй холбогдох
 
 ## 9.1. OkHttp
 
-Хичээлийн холбоос: [https://youtu.be/nXvaComQrMU](https://youtu.be/nXvaComQrMU)
+Хичээлийн холбоос: https://youtu.be/JobHFU3w-z8
 
 ## 10. RecyclerView болон Adapter
 
