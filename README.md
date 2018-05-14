@@ -31,7 +31,6 @@ Dependencies гэдэг нь гаднаас сангуудыг өөрийн пр
 
 Android дээр dependencies удирдахын тулд gradle ашиглана. Доорх хэсэг gradle-ийн тохиргооны файл юу юунаас бүрддэг талаар тайлбарлая
 
-```
 ## 2. Bottom Navigation View
 
 ## 3. Fragments
