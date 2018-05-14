@@ -1,5 +1,3 @@
-
-        
 # Android програмчлалын үндсэн ойлголтууд
 
 #### Android програмчлалын үндсэн хамгийн чухал ойлголтуудыг практик дээр хэрэгжүүлэх
@@ -27,15 +25,19 @@
 
 ## 1. Шинэ project үүсгэх
 
-Dependencies гэдэг нь гаднаас сангуудыг өөрийн програмдаа дуудаж ашиглах боломжтой болгосон зүйлийг хэлнэ.
-
-Android дээр dependencies удирдахын тулд gradle ашиглана. Доорх хэсэг gradle-ийн тохиргооны файл юу юунаас бүрддэг талаар тайлбарлая
+Хичээлийн холбоос: https://www.youtube.com/watch?v=0Yyz_Ga0uAY&list=PLnDrASUslX6Sul8ByRHkJ-sseEE-8Vu4j&t=105s&index=1
 
 ## 2. Bottom Navigation View
 
+Хичээлийн холбоос: https://www.youtube.com/watch?v=0Yyz_Ga0uAY&list=PLnDrASUslX6Sul8ByRHkJ-sseEE-8Vu4j&t=105s&index=1
+
 ## 3. Fragments
 
+Хичээлийн холбоос: https://www.youtube.com/watch?v=0Yyz_Ga0uAY&list=PLnDrASUslX6Sul8ByRHkJ-sseEE-8Vu4j&t=105s&index=1
+
 ## 4. Android Studio дээрх төслөө хэрхэн Github-тай холбох
+
+Хичээлийн холбоос: https://www.youtube.com/watch?v=0Yyz_Ga0uAY&list=PLnDrASUslX6Sul8ByRHkJ-sseEE-8Vu4j&t=105s&index=1
 
 1. Sign up and create a GitHub account in www.github.com.
 
