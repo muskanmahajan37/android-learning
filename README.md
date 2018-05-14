@@ -27,7 +27,60 @@
 
 ## 1. Шинэ project үүсгэх
 
+Gradle гэж юу вэ?
+
+### Short Answer
+
+Gradle is a build system.
+
+### Long Answer
+
+Before Android Studio you were using Eclipse for your development purposes, and, chances are, you didn't know how to build your Android APK without Eclipse.
+
+You can do this on the command line, but you have to learn what each tool (dx, aapt) does in the SDK.
+Eclipse saved us all from these low level but important, fundamental details by giving us their own build system.
+
+Now, have you ever wondered why the `res` folder is in the same directory as your `src` folder? 
+
+This is where the build system enters the picture. The build system automatically takes all the source files (`.java` or `.xml`), then applies the appropriate tool (e.g. takes `java` class files and converts them to `dex` files), and groups all of them into one compressed file, our beloved APK.
+
+This build system uses some conventions: an example of one is to specify the directory containing the source files (in Eclipse it is `\src` folder) or resources files (in Eclipse it is `\res` folder).
+
+Now, in order to automate all these tasks, there has to be a script; you can write your own build system using shell scripting in linux or batch files syntax in windows. Got it?
+
+Gradle is another **build system** that takes the best features from other build systems and combines them into one. It is improved based off of their shortcomings.
+It is a **JVM based build system**, what that means is that you can write your own script in Java, which Android Studio makes use of.
+
+One cool thing about gradle is that it is a **plugin based system**. This means if you have your own programming language and you want to automate the task of building some package (output like a JAR for Java) from sources then you can write a complete plugin in Java or Groovy(or Kotlin, see [here][1]), and distribute it to rest of world.
+
+### Why did Google use it?
+
+Google saw one of the most advanced build systems on the market and realized that you could write scripts of your own with little to no learning curve, and without learning Groovy or any other new language. So they wrote the Android plugin for Gradle.
+
+You must have seen `build.gradle` file(s) in your project. That is where you can write scripts to automate your tasks. The code you saw in these files is Groovy code. If you write `System.out.println("Hello Gradle!");` then it will print on your console.
+
+### What can you do in a build script?
+A simple example is that you have to copy some files from one directory to another before the actual build process happens. A Gradle build script can do this.
+
+[1]: https://blog.gradle.org/kotlin-meets-gradle
+
+```
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.android.support:support-vector-drawable:27.1.1'
+    implementation 'com.orhanobut:logger:2.1.1'
+    implementation 'com.github.mancj:MaterialSearchBar:0.7.6'
+```
+
 Хичээлийн холбоос: https://youtu.be/0Yyz_Ga0uAY
+
+Нэмэлт унших материалууд 
+
+https://developer.android.com/studio/build/
+
+https://stackoverflow.com/questions/16754643/what-is-gradle-in-android-studio
 
 ## 2. Bottom Navigation View
 
@@ -36,6 +89,12 @@
 ## 3. Fragments
 
 Хичээлийн холбоос: https://youtu.be/otY8m5THgQs
+
+https://developer.android.com/guide/components/fragments
+
+https://www.tutorialspoint.com/android/android_fragments.htm
+
+https://medium.com/inloopx/using-android-fragments-in-2018-b9cf0b05b718
 
 ## 4. Android Studio дээрх төслөө хэрхэн Github-тай холбох
 
