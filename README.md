@@ -1,3 +1,4 @@
+
 # Android програмчлалын үндсэн ойлголтууд
 
 #### Android програмчлалын үндсэн хамгийн чухал ойлголтуудыг практик дээр хэрэгжүүлэх
@@ -7,10 +8,10 @@
 Энэхүү төслийн хүрээнд андройд хөгжүүлэлтийн хамгийн чухал ойлголтууд болох дараах зүйлсийг сурах болно.
 
 * [Шинэ project үүсгэх](#1-шинэ-project-үүсгэх)
-* [Bottom Navigation View](#2-resources)
-* [Fragments](#3-layouts)
-* [Android Studio дээрх төслөө хэрхэн Github-тай холбох](#4-activities)
-* [Splash Screen хийх](#5-fragments)
+* [Bottom Navigation View](#2-bottom-navigation-view)
+* [Fragments](#3-fragments)
+* [Android Studio дээрх төслөө хэрхэн Github-тай холбох](#4-android-studio-дээрх-төслөө-хэрхэн-github-тай-холбох)
+* [Splash Screen хийх](#5-splash-screen-хийх)
 * [Material Search bar хэрхэн оруулах](#6-shared-preference)
 * [Model үүсгэх](#7-models)
 * Өгөгдлийн сантай ажиллах
