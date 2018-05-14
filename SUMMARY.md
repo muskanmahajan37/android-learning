@@ -1,20 +1,20 @@
 # Summary
 
 * [Introduction](README.md)
-* Шинэ project үүсгэх
-* Bottom Navigation View
-* Fragments
-* Android Studio дээрх төслөө хэрхэн Github-тай холбох
-* Splash Screen хийх
-* Material Search bar хэрхэн оруулах
-* Model үүсгэх
-* Өгөгдлийн сантай ажиллах
-* Өгөгдлийн сан үүсгэх
-* Хүснэгт үүсгэх
-* Хүснэгтэд өгөгдөл нэмэх болон select хийх
-* Вэбтэй холбогдох
-* Okhttp
-* RecyclerView болон Adapter
-* Connection Detector
-* Material SearchBar search and suggest
+* [Шинэ project үүсгэх](shine-project-sgeh.md)
+* [Bottom Navigation View](bottom-navigation-view.md)
+* [Fragments](fragments.md)
+* [Android Studio дээрх төслөө хэрхэн Github-тай холбох](android-studio-deerh-tsl-herhen-github-tai-holboh.md)
+* [Splash Screen хийх](splash-screen-hiih.md)
+* [Material Search bar хэрхэн оруулах](material-search-bar-herhen-oruulah.md)
+* [Model үүсгэх](model-sgeh.md)
+* [Өгөгдлийн сантай ажиллах](ggdliin-santai-azhillah.md)
+* [Өгөгдлийн сан үүсгэх](ggdliin-san-sgeh.md)
+* [Хүснэгт үүсгэх](hsnegt-sgeh.md)
+* [Хүснэгтэд өгөгдөл нэмэх болон select хийх](hsnegted-ggdl-nemeh-bolon-select-hiih.md)
+* [Вэбтэй холбогдох](vebtei-holbogdoh.md)
+* [Okhttp](okhttp.md)
+* [RecyclerView болон Adapter](recyclerview-bolon-adapter.md)
+* [Connection Detector](connection-detector.md)
+* [Material SearchBar search and suggest](material-searchbar-search-and-suggest.md)
 
