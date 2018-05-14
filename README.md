@@ -1,3 +1,5 @@
+
+        
 # Android програмчлалын үндсэн ойлголтууд
 
 #### Android програмчлалын үндсэн хамгийн чухал ойлголтуудыг практик дээр хэрэгжүүлэх
@@ -25,19 +27,19 @@
 
 ## 1. Шинэ project үүсгэх
 
-Хичээлийн холбоос: https://www.youtube.com/watch?v=0Yyz_Ga0uAY&list=PLnDrASUslX6Sul8ByRHkJ-sseEE-8Vu4j&t=105s&index=1
+Хичээлийн холбоос: https://youtu.be/0Yyz_Ga0uAY
 
 ## 2. Bottom Navigation View
 
-Хичээлийн холбоос: https://www.youtube.com/watch?v=0Yyz_Ga0uAY&list=PLnDrASUslX6Sul8ByRHkJ-sseEE-8Vu4j&t=105s&index=1
+Хичээлийн холбоос: https://youtu.be/zTCWuP-r5hk
 
 ## 3. Fragments
 
-Хичээлийн холбоос: https://www.youtube.com/watch?v=0Yyz_Ga0uAY&list=PLnDrASUslX6Sul8ByRHkJ-sseEE-8Vu4j&t=105s&index=1
+Хичээлийн холбоос: https://youtu.be/otY8m5THgQs
 
 ## 4. Android Studio дээрх төслөө хэрхэн Github-тай холбох
 
-Хичээлийн холбоос: https://www.youtube.com/watch?v=0Yyz_Ga0uAY&list=PLnDrASUslX6Sul8ByRHkJ-sseEE-8Vu4j&t=105s&index=1
+Хичээлийн холбоос: https://youtu.be/qbldKX6tQ6U
 
 1. Sign up and create a GitHub account in www.github.com.
 
@@ -62,24 +64,44 @@
 
 ## 5. Splash Screen хийх
 
+Хичээлийн холбоос: https://youtu.be/GuHbkC4ajvM
+
 ## 6. Material Search bar хэрхэн оруулах
 
+Хичээлийн холбоос: https://youtu.be/Qxlo6IIwLD0
+
 ## 7. Model үүсгэх
+
+Хичээлийн холбоос: https://youtu.be/y5y95VX5t_0
 
 ## 8. Өгөгдлийн сантай ажиллах
 
 ### 8.1. Өгөгдлийн сан үүсгэх
 
+Хичээлийн холбоос: https://youtu.be/TZZMQinZaII
+
 ### 8.2. Хүснэгт үүсгэх
 
+Хичээлийн холбоос: https://youtu.be/4IkUxJ_whw4
+
 ### 8.3. Хүснэгтэд өгөгдөл нэмэх болон select хийх
+
+Хичээлийн холбоос: https://youtu.be/O5uzsZQ1yTA
 
 ## 9. Вэбтэй холбогдох
 
 ## 9.1. OkHttp
 
+Хичээлийн холбоос: https://youtu.be/nXvaComQrMU
+
 ## 10. RecyclerView болон Adapter
+
+Хичээлийн холбоос: https://youtu.be/PUZW4kH4nD4
 
 ## 11. Connection Detector
 
+Хичээлийн холбоос: https://youtu.be/1vcxwiNiyk4
+
 ## 12. Material SearchBar search and suggest
+
+Хичээлийн холбоос: https://youtu.be/wK899PhR20Y
