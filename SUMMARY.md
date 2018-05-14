@@ -1,20 +1,4 @@
-# Summary
+# Table of contents
 
-* [Introduction](README.md)
-* [Шинэ project үүсгэх](/README.md#1-шинэ-project-үүсгэх)
-* [Bottom Navigation View](bottom-navigation-view.md)
-* [Fragments](fragments.md)
-* [Android Studio дээрх төслөө хэрхэн Github-тай холбох](android-studio-deerh-tsl-herhen-github-tai-holboh.md)
-* [Splash Screen хийх](splash-screen-hiih.md)
-* [Material Search bar хэрхэн оруулах](material-search-bar-herhen-oruulah.md)
-* [Model үүсгэх](model-sgeh.md)
-* [Өгөгдлийн сантай ажиллах](ggdliin-santai-azhillah.md)
-* [Өгөгдлийн сан үүсгэх](ggdliin-san-sgeh.md)
-* [Хүснэгт үүсгэх](hsnegt-sgeh.md)
-* [Хүснэгтэд өгөгдөл нэмэх болон select хийх](hsnegted-ggdl-nemeh-bolon-select-hiih.md)
-* [Вэбтэй холбогдох](vebtei-holbogdoh.md)
-* [Okhttp](okhttp.md)
-* [RecyclerView болон Adapter](recyclerview-bolon-adapter.md)
-* [Connection Detector](connection-detector.md)
-* [Material SearchBar search and suggest](material-searchbar-search-and-suggest.md)
+* [Android програмчлалын үндсэн ойлголтууд](README.md)
 
