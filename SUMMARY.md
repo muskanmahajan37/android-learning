@@ -16,5 +16,4 @@
 * [Okhttp](/README.md#91-okhttp)
 * [RecyclerView болон Adapter](/README.md#10-recyclerview-болон-adapter)
 * [Connection Detector](/README.md#11-connection-detector)
-* Шинэ project үүсгэх
 
