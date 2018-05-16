@@ -1,8 +1,8 @@
 # Summary
 
 * [Эхлэх](README.md)
-* Шинэ project үүсгэх
-* Bottom Navigation View
+* [Шинэ project үүсгэх](/README.md#1-шинэ-project-үүсгэх)
+* [Bottom Navigation View](bottom-navigation-view.md)
 * Fragments
 * Android Studio дээрх төслөө хэрхэн Github-тай холбох
 * Splash Screen хийх
