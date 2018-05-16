@@ -26,19 +26,19 @@
 
 ## 1. Шинэ project үүсгэх
 
-Хичээлийн холбоос: [https://youtu.be/0Yyz\_Ga0uAY](https://youtu.be/0Yyz_Ga0uAY)
+Хичээлийн холбоос: [https://youtu.be/M71VhrSa1n0](https://youtu.be/M71VhrSa1n0)
 
 ## 2. Bottom Navigation View
 
-Хичээлийн холбоос: [https://youtu.be/zTCWuP-r5hk](https://youtu.be/zTCWuP-r5hk)
+Хичээлийн холбоос: [https://youtu.be/gHBvJcYMtIw](https://youtu.be/gHBvJcYMtIw)
 
 ## 3. Fragments
 
-Хичээлийн холбоос: [https://youtu.be/otY8m5THgQs](https://youtu.be/otY8m5THgQs)
+Хичээлийн холбоос: [https://youtu.be/BmY1VFrp1-M](https://youtu.be/BmY1VFrp1-M)
 
 ## 4. Android Studio дээрх төслөө хэрхэн Github-тай холбох
 
-Хичээлийн холбоос: [https://youtu.be/qbldKX6tQ6U](https://youtu.be/qbldKX6tQ6U)
+Хичээлийн холбоос: [https://youtu.be/fpviOTg1nBk](https://youtu.be/fpviOTg1nBk)
 
 1. Sign up and create a GitHub account in www.github.com.
 2. Download git from [https://git-scm.com/downloads](https://git-scm.com/downloads) and install it in your system.
@@ -51,45 +51,45 @@
 
 ## 5. Splash Screen хийх
 
-Хичээлийн холбоос: [https://youtu.be/GuHbkC4ajvM](https://youtu.be/GuHbkC4ajvM)
+Хичээлийн холбоос: [https://youtu.be/hG1EtTnZj_E](https://youtu.be/hG1EtTnZj_E)
 
 ## 6. Material Search bar хэрхэн оруулах
 
-Хичээлийн холбоос: [https://youtu.be/Qxlo6IIwLD0](https://youtu.be/Qxlo6IIwLD0)
+Хичээлийн холбоос: [https://youtu.be/AYmcXM9Jvr0](https://youtu.be/AYmcXM9Jvr0)
 
 ## 7. Model үүсгэх
 
-Хичээлийн холбоос: [https://youtu.be/y5y95VX5t\_0](https://youtu.be/y5y95VX5t_0)
+Хичээлийн холбоос: [https://youtu.be/OPylra7ghas](https://youtu.be/OPylra7ghas)
 
 ## 8. Өгөгдлийн сантай ажиллах
 
 ### 8.1. Өгөгдлийн сан үүсгэх
 
-Хичээлийн холбоос: [https://youtu.be/TZZMQinZaII](https://youtu.be/TZZMQinZaII)
+Хичээлийн холбоос: [https://youtu.be/oHU99Jv7bnI](https://youtu.be/oHU99Jv7bnI)
 
 ### 8.2. Хүснэгт үүсгэх
 
-Хичээлийн холбоос: [https://youtu.be/4IkUxJ\_whw4](https://youtu.be/4IkUxJ_whw4)
+Хичээлийн холбоос: [https://youtu.be/f8V68H33FHc](https://youtu.be/f8V68H33FHc)
 
 ### 8.3. Хүснэгтэд өгөгдөл нэмэх болон select хийх
 
-Хичээлийн холбоос: [https://youtu.be/O5uzsZQ1yTA](https://youtu.be/O5uzsZQ1yTA)
+Хичээлийн холбоос: [https://youtu.be/9ybg1zLGsxA](https://youtu.be/9ybg1zLGsxA)
 
 ## 9. Вэбтэй холбогдох
 
 ## 9.1. OkHttp
 
-Хичээлийн холбоос: [https://youtu.be/nXvaComQrMU](https://youtu.be/nXvaComQrMU)
+Хичээлийн холбоос: [https://youtu.be/JobHFU3w-z8](https://youtu.be/JobHFU3w-z8)
 
 ## 10. RecyclerView болон Adapter
 
-Хичээлийн холбоос: [https://youtu.be/PUZW4kH4nD4](https://youtu.be/PUZW4kH4nD4)
+Хичээлийн холбоос: [https://youtu.be/VUxUXVzqEp8](https://youtu.be/VUxUXVzqEp8)
 
 ## 11. Connection Detector
 
-Хичээлийн холбоос: [https://youtu.be/1vcxwiNiyk4](https://youtu.be/1vcxwiNiyk4)
+Хичээлийн холбоос: [https://youtu.be/XFZl2SFEGTE](https://youtu.be/XFZl2SFEGTE)
 
 ## 12. Material SearchBar search and suggest
 
-Хичээлийн холбоос: [https://youtu.be/wK899PhR20Y](https://youtu.be/wK899PhR20Y)
+Хичээлийн холбоос: [https://youtu.be/ajmf8aX1RvE](https://youtu.be/ajmf8aX1RvE)
 
