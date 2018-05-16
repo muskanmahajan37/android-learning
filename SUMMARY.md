@@ -1,6 +1,7 @@
 # Summary
 
-* [Шинэ project үүсгэх](README.md)
+* [Android хичээл](README.md)
+* [Шинэ project үүсгэх](/README.md#1-шинэ-project-үүсгэх)
 * [Bottom Navigation View](/README.md#2-bottom-navigation-view)
 * [Fragments](/README.md#3-fragments)
 * [Android Studio дээрх төслөө хэрхэн Github-тай холбох](/README.md#4-android-studio-дээрх-төслөө-хэрхэн-github-тай-холбох)
@@ -15,5 +16,5 @@
 * [Okhttp](/README.md#91-okhttp)
 * [RecyclerView болон Adapter](/README.md#10-recyclerview-болон-adapter)
 * [Connection Detector](/README.md#11-connection-detector)
-* [Material SearchBar search and suggest](/README.md#12-material-searchbar-search-and-suggest)
+* Шинэ project үүсгэх
 
