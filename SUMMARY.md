@@ -1,7 +1,6 @@
 # Summary
 
-* [Эхлэх](README.md)
-* [Шинэ project үүсгэх](/README.md#1-шинэ-project-үүсгэх)
+* [Шинэ project үүсгэх](README.md)
 * [Bottom Navigation View](/README.md#2-bottom-navigation-view)
 * [Fragments](/README.md#3-fragments)
 * [Android Studio дээрх төслөө хэрхэн Github-тай холбох](/README.md#4-android-studio-дээрх-төслөө-хэрхэн-github-тай-холбох)
